@@ -6,7 +6,7 @@ type InputProps = React.ComponentProps<"input"> & {
 
 export function Input({ legend, type = "text", ...rest }: InputProps) {
   return (
-    <fieldset className="max-h-20 text-gray-200 focus-within:text-green-100">
+    <fieldset className="flex-1 max-h-20 text-gray-200 focus-within:text-green-100">
       {legend && (
         <legend className="text-xxs mb-2 text-inherit uppercase">
           {" "}
