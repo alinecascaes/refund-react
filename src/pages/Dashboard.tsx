@@ -11,7 +11,7 @@ const REFUND_EXAMPLE = {
   id: "123",
   name: "Aline",
   category: "Transporte",
-  amount: "34.5,",
+  amount: "34.50",
   categoryImg: CATEGORIES["transport"].icon,
 };
 
@@ -42,7 +42,7 @@ export function Dashboard() {
         </Button>
       </form>
 
-      <div>
+      <div className="mt-6 flex flex-col gap-4 max-h-85.5 overflow-y-scroll">
         <RefundItem data={REFUND_EXAMPLE} />
       </div>
     </div>
