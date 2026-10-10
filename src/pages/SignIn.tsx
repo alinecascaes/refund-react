@@ -5,7 +5,7 @@ import { Button } from "../components/Button";
 export function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading] = useState(false);
 
   function onSubmit(e: React.FormEvent) {
     e.preventDefault();
